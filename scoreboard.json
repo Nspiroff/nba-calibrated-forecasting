@@ -1,0 +1,94 @@
+{
+  "points": {
+    "n_test": 27949,
+    "models": {
+      "poisson": {
+        "crps": 3.5485,
+        "cov80": 0.492,
+        "cov50": 0.27,
+        "pit_mean": 0.476
+      },
+      "negbin(gbm,r=4.2)": {
+        "crps": 3.3371,
+        "cov80": 0.728,
+        "cov50": 0.468,
+        "pit_mean": 0.493
+      },
+      "quantile_reg": {
+        "crps": 3.2739,
+        "cov80": 0.829,
+        "cov50": null,
+        "pit_mean": 0.496
+      }
+    }
+  },
+  "rebounds": {
+    "n_test": 27949,
+    "models": {
+      "poisson": {
+        "crps": 1.3741,
+        "cov80": 0.712,
+        "cov50": 0.417,
+        "pit_mean": 0.49
+      },
+      "negbin(gbm,r=6.7)": {
+        "crps": 1.3498,
+        "cov80": 0.81,
+        "cov50": 0.497,
+        "pit_mean": 0.494
+      },
+      "quantile_reg": {
+        "crps": 1.3867,
+        "cov80": 0.834,
+        "cov50": null,
+        "pit_mean": 0.49
+      }
+    }
+  },
+  "assists": {
+    "n_test": 27949,
+    "models": {
+      "poisson": {
+        "crps": 0.9483,
+        "cov80": 0.775,
+        "cov50": 0.46,
+        "pit_mean": 0.497
+      },
+      "negbin(gbm,r=6.1)": {
+        "crps": 0.9334,
+        "cov80": 0.86,
+        "cov50": 0.518,
+        "pit_mean": 0.498
+      },
+      "quantile_reg": {
+        "crps": 1.0077,
+        "cov80": 0.889,
+        "cov50": null,
+        "pit_mean": 0.492
+      }
+    }
+  },
+  "threes": {
+    "n_test": 27949,
+    "models": {
+      "poisson": {
+        "crps": 0.6056,
+        "cov80": 0.832,
+        "cov50": 0.549,
+        "pit_mean": 0.498
+      },
+      "negbin(gbm,r=3.9)": {
+        "crps": 0.5908,
+        "cov80": 0.899,
+        "cov50": 0.6,
+        "pit_mean": 0.497
+      },
+      "quantile_reg": {
+        "crps": 0.686,
+        "cov80": 0.91,
+        "cov50": null,
+        "pit_mean": 0.525
+      }
+    }
+  }
+}
